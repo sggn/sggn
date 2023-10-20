@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing page</title>
+     <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <h1>Udemy</h1>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="contain">
+    <section>
+      &nbsp;&nbsp;Learn to <br>&nbsp;&nbsp;Enhance<br>
+ &nbsp;&nbsp;your skills.<br>
+    </section>
+    </div>
+  
+  <footer>
+  <button id="Learn-now" class="styled-button">Learn-now</button>
+  </footer>
+  <script>
+    var button = document.getElementById("Learn-now");
+button.style.backgroundColor = "red";
+button.style.color = "white";
+button.style.border = "2px solid black";
+button.style.borderRadius = "5px";
+button.style.padding = "12px 24px";
+document.getElementById("Learn-now").addEventListener("click", function() {
+            window.location.href = "Learn-now.html";
+        });
+  </script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body{
+  background-color: blanchedalmond;
+}
+  header{
+   font-size: 40px;
+    font-style: bold;
+    background-color:beige;
+    color:black;
+      }
+      a:link, a:visited {
+        font-size: 20px;
+        background-color:green;
+        color: white;
+        padding: 10px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: green;
+      }
+      .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .dropbtn {
+        background-color:black;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+      }
+      
+      .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color:white;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .dropdown-content a {
+        color: black;
+        background-color: aliceblue;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      }
+      
+      .dropdown-content a:hover {background-color: white}
+      
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      
+      .dropdown:hover .dropbtn {
+        background-color: grey;
+      }
+      .contain{
+        font-size: 90px;
+        color:black;
+        margin:35px;
+        width: 1200px;
+        height: 400px;
+        border-style: solid;
+        border-width: 2px;
+        font-style: bold;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0QLePjIAAHbkcYzLkaMagMOtmg87rzxlRKA&usqp=CAU);
+        background-size: cover ;
+      }
+      .styled-button {
+        background-color: orangered;
+        color: #fff;
+        padding: 15px 20px;
+        border: none;
+        cursor: pointer;
+      }
+      
+
+
+
