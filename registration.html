@@ -6,10 +6,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Event Registration</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+     body{
+            background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-youth-does-not-graduate-decisive-battle-college-entrance-examination-poster-background-image_145949.jpg);
+            background-size: cover;
+            font-style: italic;
+            font-size: 30px;
+            color: black;
+            background-color: none;
+            text-align: center; 
+             display: flex;     
+            flex-direction: column; 
+           justify-content: center; 
+            align-items: center;
+        }
+        #submitButton {
+            background-color: #0074D9;
+            color: #FFFFFF;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #submitButton:hover {
+            background-color: #0056b3;}
+    </style>
 </head>
 <body>
     <header>
+        <br>
         <h1>Event Registration</h1>
     </header>
 
@@ -28,7 +54,7 @@
             <label for="college">College:</label>
             <input type="text" id="college" name="college" required><br><br>
 
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" id="submitButton">
         </form>
     </section>
 
